@@ -1,4 +1,4 @@
 name: Bug Report New
-description: File a bug report here
+about: File a bug report here
 title: "[BUG]: "
-labels: ["bug"]
+labels: bug

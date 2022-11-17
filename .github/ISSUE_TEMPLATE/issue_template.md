@@ -1,5 +1,5 @@
 ---
-name: 🐛 Bug Report
+name: 🐛 Bug Report MD?
 description: File a bug report here
 title: "[BUG]: "
 labels: ["bug"]

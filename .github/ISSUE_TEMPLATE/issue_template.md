@@ -1,5 +1,5 @@
 ---
-name: :beetle: Bug Report
+name: Bug Report YAML
 description: File a bug report here
 about: File a bug report here
 title: "[BUG]: "

@@ -1,6 +1,7 @@
 ---
-name: 🐛 Bug Report MD?
+name: :beetle: Bug Report
 description: File a bug report here
+about: File a bug report here
 title: "[BUG]: "
 labels: ["bug"]
 assignees: ["space-storm"]

@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: {scene-id} " - Short Description of the issue"
+title: "{scene-id} - Short Description of the issue"
 labels: ["type: bug"]
 assignees:
   - space-storm

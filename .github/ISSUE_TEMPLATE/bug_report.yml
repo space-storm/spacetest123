@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: "{scene-id} - Short Description of the issue"
+title: ""
 labels: ["type: bug"]
 assignees:
   - space-storm
@@ -44,7 +44,7 @@ body:
       required: true
 
   - type: textarea
-    id: bug-desription
+    id: bug-description
     attributes:
       label: Bug Description
       description: A clear and concise description of what the bug is.
@@ -55,7 +55,7 @@ body:
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Expected behaviour
+      label: Expected behavior
       description: A clear and concise description of what you expected to happen.
       # placeholder: 
     validations:

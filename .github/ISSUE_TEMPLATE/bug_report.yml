@@ -31,13 +31,15 @@ body:
     id: priority
     attributes:
       label: Priority
-      description: What priority would you consider this issue to be? P1 - Highest, P4 - Lowest
+      description: 
+        What priority would you consider this issue to be?
+        P1 - Highest, P4 - Lowest
       multiple: false
       options:
-        - P1
-        - P2
-        - P3
         - P4
+        - P3
+        - P2
+        - P1
     validations:
       required: true
 
@@ -48,7 +50,7 @@ body:
       description: A clear and concise description of what the bug is.
       # placeholder: 
     validations:
-      required: true
+      required: False
 
   - type: textarea
     id: expected-behaviour
@@ -72,7 +74,7 @@ body:
     id: environment
     attributes:
       label: What is the OS version you are playing on?
-      description: If this issue is occurring on more than 1 version of the app, select the appropriate versions.
+      description: If you selecte "Other", please provide the OS name and version in the box below.
       multiple: false
       options:
         - Windows

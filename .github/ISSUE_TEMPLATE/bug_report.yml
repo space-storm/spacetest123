@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: "SceneID - Short Description of the Issue"
+title: "[scene-id] - Short Description of the issue"
 labels: ["type: bug"]
 assignees:
   - space-storm
@@ -31,9 +31,9 @@ body:
     id: priority
     attributes:
       label: Priority
-      description: 
+      description: |
         What priority would you consider this issue to be?
-        P1 - Highest, P4 - Lowest
+        P4 - Lowest, P1 - Highest
       multiple: false
       options:
         - P4
@@ -50,16 +50,16 @@ body:
       description: A clear and concise description of what the bug is.
       # placeholder: 
     validations:
-      required: False
+      required: true
 
   - type: textarea
-    id: expected-behaviour
+    id: expected-behavior
     attributes:
       label: Expected behaviour
       description: A clear and concise description of what you expected to happen.
       # placeholder: 
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: additional-info
@@ -74,7 +74,7 @@ body:
     id: environment
     attributes:
       label: What is the OS version you are playing on?
-      description: If you selecte "Other", please provide the OS name and version in the box below.
+      description: If you select "Other", please provide the OS name and version in the box below.
       multiple: false
       options:
         - Windows

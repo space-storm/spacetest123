@@ -1,7 +1,7 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: "Episode & Scene Number e.g. ep2_s41b - Short description of the issue"
-labels: ["type: bug"]
+title: "[SCENE-ID] - [BUG-DESCRIPTION]"
+labels: []
 assignees: []
 body:
   - type: markdown

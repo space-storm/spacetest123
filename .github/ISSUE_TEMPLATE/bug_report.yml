@@ -1,9 +1,8 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: "Scene Number - Short description of the issue"
+title: "Episode & Scene Number e.g. ep2_s41b - Short description of the issue"
 labels: ["type: bug"]
-assignees:
-  - space-storm
+assignees: []
 body:
   - type: markdown
     attributes:
@@ -23,7 +22,7 @@ body:
     id: scene-id
     attributes:
       label: Scene number
-      description: We need a scene and/or image ID
+      description: We need episode version & scene number (e.g. ep2_s41b)
     validations:
       required: true
 
@@ -33,13 +32,17 @@ body:
       label: Priority
       description: |
         What priority would you consider this issue to be?
-        P4 - Lowest, P1 - Highest
+        *Urgent - The issue is causing the game to crash and the player cannot progress through the story. The game is considered unplayable.
+        ❗ Only applicable if the game is launched to the general public. This should not be used when testing the game. ❗
+        *High - Any issue causing the game to crash or the story to break.
+        *Normal - For issues that are currently not affecting any crucial part(s) of the game
+        *Low - Issue that we should keep in mind and address at some point. Not affecting anything in particular, minor bug.
       multiple: false
       options:
-        - P4
-        - P3
-        - P2
-        - P1
+        - Low
+        - Normal
+        - High
+        - Urgent
     validations:
       required: true
 

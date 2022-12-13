@@ -32,11 +32,11 @@ body:
       label: Priority
       description: |
         What priority would you consider this issue to be?
-        ℹ️ *Urgent - The issue is causing the game to crash and the player cannot progress through the story. The game is considered unplayable.
-            ❗ Only applicable if the game is launched to the general public. This should not be used when testing the game. ❗
-        ℹ️ *High - Any issue causing the game to crash or the story to break.
-        ℹ️ *Normal - For issues that are currently not affecting any crucial part(s) of the game
-        ℹ️ *Low - Issue that we should keep in mind and address at some point. Not affecting anything in particular, minor bug.
+        ℹ️ **Urgent** - The issue is causing the game to crash and the player cannot progress through the story. The game is considered unplayable.
+        ~~~ ❗ Only applicable if the game is launched to the general public. This should not be used when testing the game. ❗
+        ℹ️ **High** - Any issue causing the game to crash or the story to break.
+        ℹ️ **Normal** - For issues that are currently not affecting any crucial part(s) of the game
+        ℹ️ **Low** - Issue that we should keep in mind and address at some point. Not affecting anything in particular, minor bug.
       multiple: false
       options:
         - Low

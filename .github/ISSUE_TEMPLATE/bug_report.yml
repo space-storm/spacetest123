@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: "ep4_s69b - Short description of the issue"
+title: None
 labels: ["type: bug", "priority: normal"]
 assignees: []
 body:
@@ -9,7 +9,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
         Don't forget to set the title by using the format:
-        Episode & Scene Number e.g. "ep2_s43a - Text typo"
+        Episode & Scene Number followed by short description of the issue e.g. "ep2_s43a - Text typo"
 
   - type: checkboxes
     id: new-bug
@@ -45,6 +45,8 @@ body:
         - Normal
         - High
         - Urgent
+      value:
+        - Normal
     validations:
       required: true
 

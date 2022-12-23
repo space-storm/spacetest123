@@ -45,8 +45,6 @@ body:
         - Normal
         - High
         - Urgent
-      selected:
-        - Low
     validations:
       required: true
 

@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: {}
+title: null
 labels: ["type: bug", "priority: normal"]
 assignees: []
 body:

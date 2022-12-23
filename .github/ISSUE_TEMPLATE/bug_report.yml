@@ -1,7 +1,6 @@
 name: 🐛 Bug Report
 description: File a bug report here
-title: 
-  placeholder: ep2_s43a - Text typo
+title: []
 labels: ["type: bug", "priority: normal"]
 assignees: []
 body:
